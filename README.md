@@ -27,6 +27,18 @@
 
 1. 直接编写 `css` 肯定比通过 `js` 操作样式 要来的高效，可以操作 `index.html` 直接在页面提前写好 `media` 适配
 2. 为防止 `flexible` 加载后重新渲染 root `font-size`，可以修改 `flexible`中的逻辑，如果 `flexible` 计算的 `font-size` 和 `media` 一致就不再重复设置 
+3. 遇到不想编译的 `px` 可以使用 `50.00px`，    
+   原理：
+
+```
+shouldIgnoreRule: function(rule) {
+      if( /\.00px$/.test(rule.value) )
+      {
+        rule.value = rule.value.replace(/\.00px$/, 'px');
+        return true;
+      }
+```
+
 
 ### Build Setup
 
