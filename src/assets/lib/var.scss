@@ -1,0 +1,6 @@
+$bg: rgba(#000, 0.6) !default;
+$color: #f00!default;
+
+@mixin var-style($color){
+	color: $color
+}
