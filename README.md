@@ -4,7 +4,7 @@
 
 ### 特别之处
 
-1. 外部 SASS 、 Vue 文件 SASS 全局 px 2 rem（font size dpr 转换） 配合 flexible.js 使用
+1. 外部 SASS 、 Vue 文件 SASS 全局 px 2 rem（font size dpr 转换） 配合 [flexible.js](https://github.com/amfe/lib-flexible/tree/master) 使用
 2. 支持全局 SASS Mixin，不用单独 import 
 3. 配置修改简单轻量
 
