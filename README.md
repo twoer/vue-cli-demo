@@ -12,7 +12,7 @@
 1. build/utils.js 中 cssLoaders 方法
 2. 增加 getPx2remConfig、getSassResources 两个方法
 
-   [修改对比图](https://github.com/twoer/vue-cli-demo/update-screenshot)
+   [修改对比图](https://github.com/twoer/vue-cli-demo/tree/master/update-screenshot)
 
 
 #### getPx2remConfig 配置
